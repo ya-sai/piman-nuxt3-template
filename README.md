@@ -38,4 +38,4 @@ A Nuxt3 template of Piman Vue3(開發中)
 
 ## Version and License  
 
-Follow [Piman](https://github.com/ya-sai/piman)  
+Follow [Piman Vue3](https://github.com/ya-sai/piman-vue3)  
