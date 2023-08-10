@@ -10,9 +10,9 @@ A Nuxt3 template of Piman(開發中)
 ## How to use  
 
 - Copy and paste  
-- npm ci  
-- npm run dev  
-
+- Run: npm ci  
+- create .env file, and copy .env.example content
+- Run: npm run dev  
 
 ## Including   
 
