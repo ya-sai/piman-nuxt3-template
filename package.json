@@ -1,6 +1,6 @@
 {
-  "name": "@yasai/paprika",
-  "version": "3.0.0",
+  "name": "@yasai/piman-nuxt3-template",
+  "version": "0.0.1",
   "description": "A Nuxt3 template of Piman",
   "author": "Blue Planet Inc.",
   "private": true,
