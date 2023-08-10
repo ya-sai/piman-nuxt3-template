@@ -1,6 +1,6 @@
-# Paprika 3  
+# Piman Nuxt3 Template  
 
-A Nuxt3 template of Piman(開發中)  
+A Nuxt3 template of Piman Vue3(開發中)  
 
 ![image](https://badgen.net/badge/vue/3.x/green) ![image](https://badgen.net/badge/Nuxt/3.x/green) ![image](https://badgen.net/badge/Piman/3.x/green)  ![image](https://badgen.net/badge/nodejs/v18/red) ![image](https://badgen.net/badge/license/Apache-2.0/orange)
 
