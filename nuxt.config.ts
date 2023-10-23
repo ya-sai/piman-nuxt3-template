@@ -1,16 +1,12 @@
 const config = {
   modules: ['@nuxtjs/html-validator', 'nuxt-swiper', '@pinia/nuxt'],
 
-  htmlValidator: {
-    usePrettier: true
-  },
-
   // pinia folder
   imports: {
     dirs: ['stores']
   },
 
-  // 環境騙術
+  // 環境變數
   runtimeConfig: {
     env: '',
     public: {

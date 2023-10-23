@@ -2,7 +2,7 @@
 
 A Nuxt3 template of Piman Vue3(開發中)  
 
-![image](https://badgen.net/badge/vue/3.x/green) ![image](https://badgen.net/badge/Nuxt/3.x/green) ![image](https://badgen.net/badge/Piman/3.x/green)  ![image](https://badgen.net/badge/nodejs/v18/red) ![image](https://badgen.net/badge/license/Apache-2.0/orange)
+![image](https://badgen.net/badge/vue/3.x/green) ![image](https://badgen.net/badge/Nuxt/3.x/green) ![image](https://badgen.net/badge/Piman/3.x/green)  ![image](https://badgen.net/badge/nodejs/v20/red) ![image](https://badgen.net/badge/license/Apache-2.0/orange)
 
 [node.js version link](https://nodejs.org/zh-tw/download/releases/)  
 
@@ -16,11 +16,9 @@ A Nuxt3 template of Piman Vue3(開發中)
 
 ## Including   
 
-- vuewordcloud  
+- vuewordcloud   
 - html2canvas    
 - nuxt-swiper  
-- @pinia/nuxt   
-- @nuxt/devtools  
 
 
 ## Recommend  

@@ -8,7 +8,10 @@
         ['fantasy', 7],
         ['adventure', 3]
       ]"
-      :color="([, weight]: [string, number]) => (weight > 10 ? 'DeepPink' : weight > 5 ? 'RoyalBlue' : 'Indigo')"
+      :color="
+        ([, weight]: [string, number]) =>
+          weight > 10 ? 'DeepPink' : weight > 5 ? 'RoyalBlue' : 'Indigo'
+      "
       font-family="Roboto"
     />
   </div>

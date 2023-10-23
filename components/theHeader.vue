@@ -12,7 +12,7 @@
           </picture>
         </nuxt-link>
       </div>
-      <div class="menubar" ref="checkScrollable">
+      <div ref="checkScrollable" class="menubar">
         <button type="button" class="btn-open-mobile-menu" @click="handleToggleMobileMenuBtn">
           選單
         </button>
@@ -20,7 +20,7 @@
           <button type="button" class="btn-close-mobile-menu" @click="handleCloseMobileMenuBtn">
             關閉選單
           </button>
-          <span class="visually-hidden" v-if="scrollHint">(橫向捲動顯示更多選單項目)</span>
+          <span v-if="scrollHint" class="visually-hidden">(橫向捲動顯示更多選單項目)</span>
           <nav class="main-menu" aria-label="主要選單">
             <ul>
               <li>
@@ -106,8 +106,8 @@ const checkScrollable = ref<HTMLElement | null>(null)
 const scrollHint = ref()
 const checkTabAble = () => {
   if (
-    checkScrollable.value!['scrollWidth'] > 0 &&
-    checkScrollable.value!['scrollWidth'] > checkScrollable.value!['clientWidth']
+    checkScrollable.value!.scrollWidth > 0 &&
+    checkScrollable.value!.scrollWidth > checkScrollable.value!.clientWidth
   ) {
     scrollHint.value = true
   } else {
@@ -181,10 +181,18 @@ header {
       linear-gradient(to right, rgba(var(--header-bg-reverse), 0), rgba(var(--header-bg), 0.9) 70%),
       radial-gradient(farthest-side at 0 50%, rgba(var(--header-bg-reverse), 0.2), transparent),
       radial-gradient(farthest-side at 100% 50%, rgba(var(--header-bg-reverse), 0.2), transparent);
-    background-position: left center, right center, left center, right center;
+    background-position:
+      left center,
+      right center,
+      left center,
+      right center;
     background-repeat: no-repeat;
     background-color: transparent;
-    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+    background-size:
+      40px 100%,
+      40px 100%,
+      14px 100%,
+      14px 100%;
 
     /* Opera doesn't support this in the shorthand */
     background-attachment: local, local, scroll, scroll;
