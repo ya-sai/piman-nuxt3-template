@@ -22,10 +22,9 @@ Component 一般來說是不應該被更動且獨立的，所以 Component 的 c
 也就是說，Component 的 CSS Variables 預設值，避免再使用 CSS Variables 代替，才能達到獨立性以及重用性。  
 例如：請寫 color: var(--color, red); 不要寫 color: var(--color, var(--color-default));  
 
-如果不想修改原始檔但想方便覆蓋第三方的 css，請建立一個檔案並 @import 放入 vendor layer 中，  
-如果需要修改原始檔，則請複製貼上 第三方 css 至 vendor.css 裡修改。  
+如果需要修改第三方原始檔，則請複製原始碼至 vendor.css 裡修改，例如改變第三方的 font-size ，從 px 改成相對單位，以符合臺灣無障礙規定。如果只是想引入第三方 css，請建立一個檔案並 @import 放入 vendor layer 中，以便以圖層方式管理 css。  
 
-variations 則是可以放入客製化、修改後的 css，例如您想改變一個第三方的樣式。  
+variations 則是撰寫覆蓋第三方的 css，例如您想改變一個第三方的樣式。  
 
 utilities 為最小單位，基本都只有一個 css 屬性，因為其絕對不能再被覆蓋的特性，所以排在最後面，優先權較高。  
 
