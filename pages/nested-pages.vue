@@ -1,6 +1,7 @@
 <template>
   <main class="page">
-    <h2>Nested Pages Demo</h2>
+    <akContainer />
+    <h2>巢狀頁面範例</h2>
     <nuxt-link to="/nested-pages/id" title="前往巢狀頁面內頁">巢狀頁面內頁</nuxt-link>
     <NuxtPage />
     <ul>

@@ -247,6 +247,7 @@ header {
       overscroll-behavior: contain;
       -webkit-overflow-scrolling: touch;
       transform: translate3d(0, 0, 0);
+      transition: transform 300ms ease-out;
     }
 
     @media screen and (width <=375px) {

@@ -1,6 +1,7 @@
 <template>
   <NuxtLayout name="default" aria-live="polite" :aria-busy="loading">
     <main class="page">
+      <akContainer />
       <h2>網頁發生了某些錯誤</h2>
       <p>錯誤代碼：{{ error.statusCode }}</p>
       <div v-if="error.statusCode === 404">

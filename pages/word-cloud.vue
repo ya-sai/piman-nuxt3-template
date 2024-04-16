@@ -1,14 +1,14 @@
 <template>
   <main class="page">
     <akContainer />
-    <h2>Vue-word-cloud</h2>
+    <h2>vue-word-cloud</h2>
     <nuxt-link
       to="https://github.com/SeregPie/VueWordCloud"
-      title="另開視窗前往 vue-word-cloud 套件網站"
+      title="另開視窗前往 Vue-word-cloud 套件網站"
       target="_blank"
       rel="noreferrer noopener"
     >
-      vue-word-cloud github
+      Vue-word-cloud Github
     </nuxt-link>
     <vue-word-cloud
       style="height: 480px; width: 640px"

@@ -1,13 +1,13 @@
 <template>
   <main class="page page--index">
     <akContainer />
-    <h2>歡迎使用 BProud Fronstage Template</h2>
+    <h2>{{ pageTitle }}</h2>
   </main>
 </template>
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig()
-const pageTitle = ref('Home Page')
+const pageTitle = ref('歡迎使用 BProud Frontstage Template')
 
 useHead({
   title: pageTitle,

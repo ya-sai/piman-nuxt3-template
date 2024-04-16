@@ -1,15 +1,16 @@
 <template>
   <main class="page">
+    <akContainer />
     <h2>Html2Canvas</h2>
     <nuxt-link
       to="https://html2canvas.hertzen.com/"
-      title="另開視窗前往 vue-word-cloud 套件網站"
+      title="另開視窗前往 html2canvas 套件網站"
       target="_blank"
       rel="noreferrer noopener"
     >
-      Html2Canvas
+      html2canvas 官網
     </nuxt-link>
-    <br />
+    <br /><br />
     <button type="button" @click="handleScreenshot()">點我截圖！</button>
     <div v-if="loadingScreenshotImg">載入螢幕截圖中...</div>
     <img v-if="screenshot" class="screenshot" :src="screenshot" alt="螢幕截圖" />
