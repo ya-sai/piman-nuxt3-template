@@ -1,9 +1,19 @@
 <template>
-  <div>
+  <main class="page">
+    <h2>Html2Canvas</h2>
+    <nuxt-link
+      to="https://html2canvas.hertzen.com/"
+      title="另開視窗前往 vue-word-cloud 套件網站"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      Html2Canvas
+    </nuxt-link>
+    <br />
     <button type="button" @click="handleScreenshot()">點我截圖！</button>
     <div v-if="loadingScreenshotImg">載入螢幕截圖中...</div>
     <img v-if="screenshot" class="screenshot" :src="screenshot" alt="螢幕截圖" />
-  </div>
+  </main>
 </template>
 <script setup lang="ts">
 const { loadingScreenshotImg, screenshot, handleScreenshot } = useHtml2canvas()

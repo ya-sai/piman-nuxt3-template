@@ -219,6 +219,8 @@ header {
 
     @media screen and (width <=768px) {
       display: block;
+      position: sticky;
+      top: 0;
     }
   }
 
@@ -231,7 +233,7 @@ header {
     padding: 1rem 0 1rem 2rem;
 
     @media screen and (width <=768px) {
-      display: block;
+      display: none;
       position: fixed;
       top: 0;
       left: 100%;
@@ -245,7 +247,6 @@ header {
       overscroll-behavior: contain;
       -webkit-overflow-scrolling: touch;
       transform: translate3d(0, 0, 0);
-      transition: transform 300ms ease-out;
     }
 
     @media screen and (width <=375px) {
@@ -268,6 +269,7 @@ header {
 
   .menu--open {
     @media screen and (width <=768px) {
+      display: block;
       box-shadow: var(--box-shadow);
       transform: translate3d(-100%, 0, 0);
     }

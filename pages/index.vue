@@ -1,8 +1,7 @@
 <template>
   <main class="page page--index">
     <akContainer />
-    <h2>{{ pageTitle }}</h2>
-    <theEmptyContent>Empty</theEmptyContent>
+    <h2>歡迎使用 BProud Fronstage Template</h2>
   </main>
 </template>
 
